@@ -85,8 +85,9 @@ p {
   margin-top: 12px;
 }
 .title {
-  // margin-top: 12px;
-  font-weight: 400;
+  font-size: 96;
+  opacity: 0.2;
+  font-weight: 700;
 }
 span {
   font-weight: 700;
@@ -149,7 +150,9 @@ span {
     margin-top: 12px;
   }
   .title {
-    // margin-top: 17px;
+    font-size: 48px;
+    opacity: 0.2;
+    font-weight: 700;
   }
   span {
     font-weight: 700;
@@ -214,7 +217,11 @@ span {
     border-bottom: 1px solid #362323;
     margin-top: 15px;
   }
-
+  .title {
+    font-size: 48px;
+    opacity: 0.2;
+    font-weight: 700;
+  }
   span {
     font-weight: 700;
   }

@@ -94,7 +94,9 @@ p {
 }
 
 .title {
-  font-weight: 400;
+  font-size: 96;
+  opacity: 0.2;
+  font-weight: 700;
 }
 
 span {
@@ -153,6 +155,11 @@ span {
   .semiTitle {
     margin-top: 12px;
   }
+  .title {
+    font-size: 48px;
+    opacity: 0.2;
+    font-weight: 700;
+  }
   span {
     font-weight: 700;
   }
@@ -209,6 +216,11 @@ span {
     width: 78px;
     border-bottom: 1px solid #362323;
     margin-top: 15px;
+  }
+  .title {
+    font-size: 48px;
+    opacity: 0.2;
+    font-weight: 700;
   }
   span {
     font-weight: 700;

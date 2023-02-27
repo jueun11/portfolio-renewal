@@ -134,6 +134,458 @@ body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-c
 body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
   margin-left: 0px;
 }
+body > #web_design_section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+body > #web_design_section > div {
+  width: 1200px;
+}
+body > #web_design_section > div > #web_01 {
+  margin-top: 136px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 26px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+  margin-top: 55px;
+  width: 486px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(1) {
+  margin-bottom: 24px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div {
+  background-color: var(--mainColor);
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > p {
+  color: var(--whiteColor);
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) {
+  width: 590px;
+  height: 456px;
+}
+body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_01 > .plan {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc {
+  display: flex;
+  width: 1200px;
+  background-color: #fff;
+  height: 90%;
+  overflow-y: scroll;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(1) {
+  position: absolute;
+  width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 11;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn {
+  margin-top: 24px;
+  margin-right: 36px;
+  font-size: 40px;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(2) {
+  width: 100%;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(2) > .mobile {
+  display: none;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc > div:nth-child(2) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet {
+  display: none;
+}
+body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile {
+  display: none;
+}
+body > #web_design_section > div > #web_02 {
+  margin-top: 270px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  margin-top: 80px;
+  width: 485px;
+  height: 376px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+  width: 390px;
+  height: 303px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 26px;
+  text-align: center;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 30px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .pc {
+  display: flex;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .mobile {
+  display: none;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+  background-color: var(--mainColor);
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+  color: var(--whiteColor);
+}
+body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_02 > .plan {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc {
+  display: flex;
+  width: 1200px;
+  background-color: #fff;
+  height: 90%;
+  overflow-y: scroll;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc > div:nth-child(1) {
+  position: absolute;
+  width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 11;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn {
+  margin-top: 24px;
+  margin-right: 36px;
+  font-size: 40px;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc > div:nth-child(2) {
+  width: 100%;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc > div:nth-child(2) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet {
+  display: none;
+}
+body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile {
+  display: none;
+}
+body > #web_design_section > div > #web_03 {
+  margin-top: 270px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-right: 24px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div {
+  width: 280px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 55px;
+  width: 486px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+  margin-bottom: 24px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+  background-color: var(--mainColor);
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+  color: var(--whiteColor);
+}
+body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_03 > .plan {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc {
+  display: flex;
+  width: 1200px;
+  background-color: #fff;
+  height: 90%;
+  overflow-y: scroll;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc > div:nth-child(1) {
+  position: absolute;
+  width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 11;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn {
+  margin-top: 24px;
+  margin-right: 36px;
+  font-size: 40px;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc > div:nth-child(1) > .plan_close_btn:hover {
+  cursor: pointer;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc > div:nth-child(2) {
+  width: 100%;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc > div:nth-child(2) > img {
+  width: 100%;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet {
+  display: none;
+}
+body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile {
+  display: none;
+}
+body > #graphic_design_section {
+  margin-top: 0px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+body > #graphic_design_section > div {
+  width: 1200px;
+}
+body > #graphic_design_section > div > div:nth-child(1) {
+  margin-bottom: 145px;
+}
+body > #graphic_design_section > div > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) {
+  width: 384px;
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  margin-left: 0;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book > div:nth-child(1) {
+  opacity: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin-bottom: 2vh;
+  border-radius: 50%;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 2vh;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:hover {
+  cursor: pointer;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+  margin-top: 55px;
+  margin-left: 204px;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) {
+  display: flex;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+  display: none;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
+  width: 384px;
+  height: 494px;
+  background-color: gray;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
+  cursor: pointer;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+  display: none;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div {
+  display: flex;
+  width: 1200px;
+  background-color: #fff;
+  height: 90%;
+  overflow-y: scroll;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) {
+  position: absolute;
+  width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 11;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn {
+  margin-top: 24px;
+  margin-right: 36px;
+  font-size: 40px;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn:hover {
+  cursor: pointer;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+  display: flex;
+}
+body > #contact_section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+body > #contact_section > div {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+body > #contact_section > div > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh 0;
+}
+body > #contact_section > div > div:nth-child(3) {
+  display: none;
+}
+body > #contact_section > div > div:nth-child(4) {
+  display: none;
+}
+body > footer {
+  width: 100vw;
+  height: 230px;
+  background-image: url("../img/floor.png");
+  background-position: center;
+  background-size: cover;
+}
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   body {
@@ -269,6 +721,501 @@ body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-c
   body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
     margin-left: 0px;
   }
+  body > #web_design_section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 36px;
+    margin-bottom: 15vh;
+  }
+  body > #web_design_section > div {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 {
+    margin-top: 5vh;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 26px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+    margin-top: 4vh;
+    width: 44vw;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(1) {
+    margin-bottom: 24px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) {
+    margin-top: 3vh;
+    display: flex;
+    gap: 24px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 8px 24px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) {
+    width: 44vw;
+    height: inherit;
+    display: flex;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn {
+    margin-top: 24px;
+    margin-right: 36px;
+    font-size: 40px;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(2) > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 {
+    margin-top: 15vh;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    margin-top: 80px;
+    width: 43vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    width: 390px;
+    width: 33vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 2vh;
+    text-align: center;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 30px;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .tablet {
+    display: flex;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+    margin-top: 3vh;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 8px 24px;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_02 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn {
+    margin-top: 24px;
+    margin-right: 36px;
+    font-size: 40px;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(2) > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 {
+    margin-top: 15vh;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3vh;
+    align-items: flex-end;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    margin-right: 0px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div {
+    width: 31vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 4vh;
+    width: 55vw;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+    margin-bottom: 24px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 8px 24px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_03 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn {
+    margin-top: 24px;
+    margin-right: 36px;
+    font-size: 40px;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(2) > .mobile {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile {
+    display: none;
+  }
+  body > #graphic_design_section {
+    margin-top: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 36px;
+    margin-bottom: 15vh;
+  }
+  body > #graphic_design_section > div {
+    width: 100%;
+  }
+  body > #graphic_design_section > div > div:nth-child(1) {
+    margin-bottom: 7vh;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: 0;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book > div:nth-child(1) {
+    opacity: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    margin-bottom: 2vh;
+    border-radius: 50%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book > img {
+    width: 80%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 2vh;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) {
+    width: 25vw;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 55px;
+    margin-left: 18vw;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+    display: none;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
+    width: 337px;
+    height: 434px;
+    background-color: gray;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+    display: none;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+    position: absolute;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn {
+    margin-right: 36px;
+    font-size: 40px;
+    margin-top: 24px;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+  }
+  body > #contact_section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 36px;
+  }
+  body > #contact_section > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body > #contact_section > div > div:nth-child(3) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 0;
+  }
+  body > #contact_section > div > div:nth-child(3) > div {
+    width: 100%;
+  }
+  body > #contact_section > div > div:nth-child(3) > div > img {
+    width: 100%;
+  }
+  body > #contact_section > div > div:nth-child(2) {
+    display: none;
+  }
+  body > #contact_section > div > div:nth-child(4) {
+    display: none;
+  }
+  body > footer {
+    width: 100vw;
+    height: 15vh;
+    background-image: url("../img/floor.png");
+    background-position: center;
+    background-size: cover;
+  }
 }
 @media all and (max-width: 768px) {
   body {
@@ -398,5 +1345,510 @@ body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-c
   }
   body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
     margin-left: 0px;
+  }
+  body > #web_design_section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 15vh;
+  }
+  body > #web_design_section > div {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 {
+    margin-top: 5vh;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > h1 {
+    display: none;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 26px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+    margin-top: 4vh;
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > p:nth-child(1) {
+    margin-bottom: 24px;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 1.5vh 6vw;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) > .mobile {
+    display: flex;
+    margin-bottom: 2vh;
+  }
+  body > #web_design_section > div > #web_01 > div:nth-child(1) > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .tablet {
+    display: none;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn {
+    margin-top: 16px;
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_01 > .plan > .plan_bg > .mobile > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 {
+    margin-top: 15vh;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    margin-top: 3vh;
+    width: 43vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    width: 33vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 2vh;
+    text-align: center;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 30px;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > .mobile {
+    display: flex;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 1.5vh 6vw;
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_02 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_02 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .tablet {
+    display: none;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn {
+    margin-top: 16px;
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_02 > .plan > .plan_bg > .mobile > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 {
+    margin-top: 15vh;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+    margin-top: 2vh;
+    flex-direction: column;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    margin-right: 0px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div {
+    width: 40vw;
+    height: inherit;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > img {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    display: flex;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 26px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+    margin-top: 4vh;
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1) {
+    margin-bottom: 24px;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div {
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    padding: 1.5vh 6vw;
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div > p {
+    color: var(--whiteColor);
+  }
+  body > #web_design_section > div > #web_03 > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_03 > .plan {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .pc {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .tablet {
+    display: none;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn {
+    margin-top: 16px;
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile > div:nth-child(1) > .plan_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile > div:nth-child(2) {
+    width: 100%;
+  }
+  body > #web_design_section > div > #web_03 > .plan > .plan_bg > .mobile > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #graphic_design_section {
+    margin-top: 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+    margin-bottom: 15vh;
+  }
+  body > #graphic_design_section > div {
+    width: 100%;
+  }
+  body > #graphic_design_section > div > div:nth-child(1) {
+    margin-bottom: 7vh;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) {
+    margin-bottom: 10vh;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: 0;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book > div:nth-child(1) {
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-bottom: 2vh;
+    border-radius: 50%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > .book > img {
+    width: 70%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 2vh;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(1) > div:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) {
+    width: 75vw;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div > div:nth-child(2) > img {
+    width: 100%;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    margin-top: 55px;
+    margin-left: 10vw;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+    display: none;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
+    width: 87vw;
+    height: 434px;
+    background-color: gray;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div {
+    display: none;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div {
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    height: 90%;
+    overflow-y: scroll;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) {
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 11;
+    position: absolute;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn {
+    margin-top: 16px;
+    margin-right: 24px;
+    font-size: 20px;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn:hover {
+    cursor: pointer;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+    display: flex;
+  }
+  body > #contact_section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 0px;
+  }
+  body > #contact_section > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  body > #contact_section > div > h1 {
+    margin-left: 24px;
+  }
+  body > #contact_section > div > div:nth-child(3) {
+    display: none;
+  }
+  body > #contact_section > div > div:nth-child(2) {
+    display: none;
+  }
+  body > #contact_section > div > div:nth-child(4) {
+    padding: 24px 24px;
+    margin-top: 5vh;
+    height: 70vh;
+    background-image: url("../img/ticket_mobile.svg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+  body > #contact_section > div > div:nth-child(4) > div:nth-child(1) > div {
+    margin-bottom: 5vh;
+  }
+  body > #contact_section > div > div:nth-child(4) > div:nth-child(1) > div > h3 {
+    font-size: 17px;
+    color: var(--whiteColor);
+    font-weight: 300;
+    margin-bottom: 4px;
+  }
+  body > #contact_section > div > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) {
+    margin-bottom: 0vh;
+  }
+  body > #contact_section > div > div:nth-child(4) > div:nth-child(1) > div:nth-child(1) > h3 {
+    font-size: 20px;
+  }
+  body > footer {
+    display: none;
   }
 }/*# sourceMappingURL=index.css.map */
