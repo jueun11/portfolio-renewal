@@ -508,8 +508,9 @@ body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div
 }
 body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
   width: 384px;
-  height: 494px;
-  background-color: gray;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > img {
+  width: 100%;
 }
 body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
   cursor: pointer;
@@ -535,7 +536,8 @@ body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div
 body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div {
   display: flex;
   width: 1200px;
-  background-color: #fff;
+  background-color: var(--subColor_02);
+  justify-content: center;
   height: 90%;
   overflow-y: scroll;
 }
@@ -553,6 +555,9 @@ body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div
 }
 body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(1) > .graphic_close_btn:hover {
   cursor: pointer;
+}
+body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > .graphic > .graphic_bg > div > div:nth-child(2) > img {
+  width: 100%;
 }
 body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
   display: flex;
@@ -1128,9 +1133,10 @@ body > footer {
     display: none;
   }
   body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
-    width: 337px;
-    height: 434px;
-    background-color: gray;
+    width: 40vw;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > img {
+    width: 100%;
   }
   body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
     cursor: pointer;
@@ -1754,8 +1760,9 @@ body > footer {
   }
   body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) {
     width: 87vw;
-    height: 434px;
-    background-color: gray;
+  }
+  body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(1) > img {
+    width: 100%;
   }
   body > #graphic_design_section > div > div:nth-child(2) > div:nth-child(2) > div > div:hover {
     cursor: pointer;

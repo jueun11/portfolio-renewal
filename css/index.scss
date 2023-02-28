@@ -554,8 +554,9 @@ body {
             display: none;
             & > div:nth-child(1) {
               width: 384px;
-              height: 494px;
-              background-color: gray;
+              & > img {
+                width: 100%;
+              }
             }
             & > div:hover {
               cursor: pointer;
@@ -581,7 +582,8 @@ body {
                 & > div {
                   display: flex;
                   width: 1200px;
-                  background-color: #fff;
+                  background-color: var(--subColor_02);
+                  justify-content: center;
                   height: 90%;
                   overflow-y: scroll;
                   & > div:nth-child(1) {
@@ -597,6 +599,11 @@ body {
                     }
                     & > .graphic_close_btn:hover {
                       cursor: pointer;
+                    }
+                  }
+                  & > div:nth-child(2) {
+                    & > img {
+                      width: 100%;
                     }
                   }
                 }
@@ -1232,9 +1239,10 @@ body {
             & > div {
               display: none;
               & > div:nth-child(1) {
-                width: 337px;
-                height: 434px;
-                background-color: gray;
+                width: 40vw;
+                & > img {
+                  width: 100%;
+                }
               }
               & > div:hover {
                 cursor: pointer;
@@ -1908,8 +1916,9 @@ body {
               display: none;
               & > div:nth-child(1) {
                 width: 87vw;
-                height: 434px;
-                background-color: gray;
+                & > img {
+                  width: 100%;
+                }
               }
               & > div:hover {
                 cursor: pointer;
