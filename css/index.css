@@ -131,7 +131,7 @@ body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-c
 body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img {
   margin-left: 10px;
 }
-body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
+body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:first-child {
   margin-left: 0px;
 }
 body > #web_design_section {
@@ -723,7 +723,7 @@ body > footer {
   body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img {
     margin-left: 10px;
   }
-  body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
+  body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:first-child {
     margin-left: 0px;
   }
   body > #web_design_section {
@@ -1349,7 +1349,7 @@ body > footer {
   body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img {
     margin-left: 10px;
   }
-  body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:last-child {
+  body > #about_me_section > div > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:last-child > div:nth-child(2) > img:first-child {
     margin-left: 0px;
   }
   body > #web_design_section {
